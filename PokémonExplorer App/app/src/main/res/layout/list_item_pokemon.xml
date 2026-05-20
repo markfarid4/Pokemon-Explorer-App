@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imageViewPokemon"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:contentDescription="@string/pokemon_image"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewHp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HP: " />
+
+        <TextView
+            android:id="@+id/textViewAttack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attack: " />
+
+        <TextView
+            android:id="@+id/textViewDefense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Defense: " />
+
+        <TextView
+            android:id="@+id/textViewSpAttack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Attack: " />
+
+        <TextView
+            android:id="@+id/textViewSpDefense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Defense: " />
+
+        <TextView
+            android:id="@+id/textViewSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed: " />
+
+    </LinearLayout>
+
+</LinearLayout>

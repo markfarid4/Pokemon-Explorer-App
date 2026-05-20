@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PokemonExplorer</string>
+    <string name="enter_pokemon_type">Enter Pokémon type</string>
+    <string name="pokemon_placeholder">fire, water, grass, electric...</string>
+    <string name="search">Search</string>
+    <string name="pokemon_image">Pokemon image</string>
+    <string name="error_fetch">Error: Unable to fetch data</string>
+    <string name="error_empty">Please enter a Pokémon type</string>
+    <string name="error_invalid">Invalid Pokémon type</string>
+</resources>
